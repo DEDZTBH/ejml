@@ -62,7 +62,6 @@ public class SwitchingEigenDecomposition_DDRM
                                             EigenDecomposition_F64<DMatrixRMaj> generalAlg, double tol ) {
         this.symmetricAlg = symmetricAlg;
         this.generalAlg = generalAlg;
-        this.computeVectors = computeVectors;
         this.tol = tol;
     }
 
